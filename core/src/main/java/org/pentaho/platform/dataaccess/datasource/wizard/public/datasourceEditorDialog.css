@@ -1,0 +1,456 @@
+.checkbox label {
+  padding-left: 3px;
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+aggregation-dialog-checkbox-label {
+  padding-left: 3px;
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 0.65em;
+}
+
+.waiting .waiting-indicator {
+  background: white;
+  color: #444;
+  font: bold 13px Tahoma, Helvetica, Arial, sans-serif;
+  padding: 10px;
+  margin: 0;
+  height: auto;
+}
+
+.waiting .waiting-indicator-img {
+  background: white;
+  margin-right: 8px;
+  float: left;
+  vertical-align: top;
+}
+
+.waiting-msg {
+  background: white;
+  font: normal 10px Tahoma, Helvetica, Arial, sans-serif;
+}
+
+.modalDialogPageBackground {
+  opacity: 0.20;
+  background-color: #000000;
+  /* Transparency for IE */
+  background-image: expression('url(wait-background.gif)');
+  background-color: expression('transparent');
+
+  cursor: wait;
+}
+
+.waitingDialog {
+  position: absolute;
+  left: 44%;
+  top: 44%;
+  padding: 15px 8px;
+  z-index: 20001;
+  height: auto;
+  border: 1px solid #ccc;
+  background: white;
+  border-collapse: separate;
+}
+
+.waitingDialog_table {
+  color: #444;
+  background-image: url(large-loading.gif);
+  background-position: left center;
+  background-repeat: no-repeat;
+  font: bold 13px Tahoma, Helvetica, Arial, sans-serif;
+}
+
+.waitingDialog_title {
+
+  color: #444;
+  font: bold 14px tahoma, arial, helvetica;
+  margin-left: 40px;
+  padding-bottom: 3px;
+}
+
+.waitingDialog_msg {
+  font: normal 12px Tahoma, Helvetica, Arial, sans-serif;
+  margin-left: 40px;
+}
+
+#waitingDialog,
+#waitingForSomethingBox {
+  border-collapse: separate;
+}
+
+#csvColumnsHeader {
+  border-spacing: 0px;
+  padding: 10px;
+  background-color: #cccccc;
+  border-bottom: thin solid black;
+}
+
+#csvPreviewPanel {
+  border-spacing: 0px;
+}
+
+#csvColumnsBox {
+  border-spacing: 0px;
+}
+
+#csvColumnsContent {
+  /*margin-left: 10px;*/
+}
+
+#csvEnclosure {
+  padding-left: 10px;
+  position: relative;
+  top: -4px;
+}
+
+.gwt-FileUpload {
+  width: 160px;
+}
+
+#columnsHeaderLabel {
+}
+
+#enclosureRadioGroup .radio {
+  font-size: 13px;
+}
+
+#delimiterRadioGroup .radio {
+  font-size: 13px;
+}
+
+#csvModelDataTable {
+}
+
+.dialogContent,
+.dialog-content,
+#main_box,
+#stepsPanel table,
+#datasourceNameBox,
+#datatypeBox,
+#csvPropertiesContent table,
+#csvColumnsContent table,
+#csvDeckPanel,
+#propertiesBox,
+#configOptionsBox,
+#csvSourceInputBox,
+#filesListBox,
+#csvPreviewDialog,
+#filesPropertiesBox {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.IE .dialogContent,
+.IE .dialog-content {
+  border-spacing: inherit;
+  border-collapse: inherit;
+}
+
+.dialog-content {
+  border-collapse: expression('separate', cellSpacing = '0px'); /* IE hack  */
+  border-collapse: separate;
+  height: auto !important;
+}
+
+#controller_panel {
+  /*border-top: 1px solid black;*/
+  padding-top: 5px;
+  border-collapse: separate;
+}
+
+#step_grid td {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#step_grid td>div.xul-label {
+    word-wrap: break-word !important;
+    white-space: normal !important;
+    padding-right: 10px !important;
+}
+
+.roundedbutton-label {
+  white-space: nowrap;
+}
+
+#filesLabel {
+  white-space: nowrap;
+}
+
+#csvDescriptionLabel {
+  white-space: normal;
+}
+
+#modelerDecision .radio {
+  font-size: 13px;
+}
+
+#summaryDialogContainer {
+  padding: 5px;
+}
+
+#summaryDialogRowsLoaded {
+}
+
+#errorLogExpander {
+  margin-top: 20px;
+}
+
+#fileUpload > tbody > tr > td > form {
+  margin-bottom: 0px;
+}
+
+#configOptionsBox > tbody > tr > td > div > fieldset > div {
+  padding: 0px !important;
+}
+
+#sourcestep,
+#stagedatastep,
+#summaryDialogContainer,
+#csvPreviewContent,
+#errorDetailsDialogContainer,
+#errorDialogContainer,
+#mainBox {
+  border-collapse: separate;
+}
+
+#stageDataDescription,
+#waitingDialogLabel,
+#summaryDialogDescription,
+#errorLabel {
+  white-space: normal;
+}
+
+#summaryDialogDescription {
+  padding-left: 3px;
+}
+
+/* this makes sure the fieldsets aren't any bigger than their defined sizes */
+#csvDeckPanel .xul-fieldset {
+  overflow: hidden;
+}
+
+#showModelerCheckboxHider .xul-fieldset {
+  overflow: hidden;
+}
+
+#csvTextPreviewLabel > .xul-pre {
+  width: 630px;
+}
+
+#database-options-box {
+  height: 350px !important;
+}
+
+#database-options-box input {
+  width: 260px !important;
+}
+
+:where(.responsive) #database-options-box input {
+  width: auto !important;
+}
+
+#database-options-box.vbox {
+  height: 325px !important;
+}
+
+#generic_message_label {
+  white-space: normal;
+}
+
+#csvTextPreview > pre {
+  font-size: 14px;
+}
+
+#csvTextPreviewLabel > pre {
+  font-size: 14px;
+}
+
+/* This CSS file is mixed with Analyzer CSS so make sure*/
+/* to qualify element selectors with something specific to*/
+/* datasourceEditorDialog*/
+.gwt-DialogBox input, .gwt-DialogBox select {
+  font-size: 13px;
+}
+
+.drop-popup > .popupContent {
+  font-size: 16px;
+}
+
+#csvDeckPanel .custom-list-textbox,
+#datasourceName,
+#uploadedFile,
+.dataTable .gwt-HTML {
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+#hierarchy_message_label,
+#dimension_message_label {
+  white-space: normal;
+}
+
+/* region modeler.xul */
+#modeler_dialog, #resolveColumnsDialog {
+  --panel-height: 465px;
+}
+#metadatastep {
+  border-collapse: separate;
+}
+
+:where(.responsive#modeler_dialog) .custom-list:not(.list-mode) {
+  min-height: var(--input-outer-height);
+  height: auto;
+
+  padding-top: var(--input-padding-v);
+  padding-bottom: var(--input-padding-v);
+}
+:where(.responsive#modeler_dialog) #time_level_format .custom-list {
+  padding: 0;
+}
+
+:where(.responsive):is(#modeler_dialog, #resolveColumnsDialog) :is(.xul-editPanel, #modelDeck) {
+  height: var(--panel-height) !important;
+  box-sizing: border-box;
+}
+
+#metadatastep .scroll-panel {
+  overflow-x: hidden !important;
+}
+:where(.responsive:is(#modeler_dialog, #resolveColumnsDialog)) .tree-scroll-panel {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#metadatastep .gwt-Tree {
+  width: auto !important;
+}
+#metadatastep .gwt-Tree div {
+  width: auto !important;
+  padding: 0;
+}
+
+:where(.responsive#modeler_dialog) .tree-item-node > table td:first-of-type > img {
+  width: calc(1em * 16/var(--typ-body-font-size-px)) !important;
+  height: calc(1em * 16/var(--typ-body-font-size-px)) !important;
+
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+#metadatastep #fieldList {
+  font-size: 14px;
+}
+
+#schema-toolbar-groupbox > .vbox {
+  height: 443px !important;
+}
+#schema-toolbar-groupbox {
+  height: 463px !important;
+}
+
+:where(.responsive#modeler_dialog) :is(#analyzerModelPanel, #reportingModelPanel) {
+  height: 100% !important;
+}
+
+:where(.responsive#modeler_dialog) .xul-editPanel-content {
+  height: calc(var(--panel-height) - var(--edit-panel-title-height) - 3px) !important;
+
+  gap: 0;
+  overflow: auto;
+}
+:where(.responsive#modeler_dialog .xul-tabbox) .gwt-TabPanelBottom {
+  height: calc(var(--panel-height) - var(--tab-bar-height)) !important;
+}
+
+:where(.responsive) #propertiesPanel .deck-panel {
+  padding: var(--focus-ring-padding);
+}
+
+:where(.responsive#modeler_dialog) .has-unique-members-label {
+  white-space: break-spaces !important;
+}
+
+#propertiesPanel .xul-textbox {
+  width: 202px !important;
+}
+:where(.responsive) #propertiesPanel .xul-textbox {
+  width: 100% !important;
+}
+
+#messages2label {
+  height: 50px;
+  width: 188px;
+  white-space: normal !important;
+}
+:where(.responsive) #messages2label {
+  height: auto;
+}
+/* endregion modeler.xul */
+
+#joinDefinitionWindow,
+#joinSelectionWindow {
+  border-collapse: separate;
+}
+
+.rowHeaderFormat .xul-label {
+
+}
+
+#addFileButton {
+  font-size: .65em;
+  padding: 3px 10px;
+}
+
+.IE #addFileButton {
+  background-color: #000000;
+  height: 24px;
+}
+
+#otherRadio .gwt-TextBox {
+  width: 150px;
+}
+
+#field_column_name {
+  width: 230px;
+  overflow: hidden;
+}
+
+#sql-text {
+  box-sizing: border-box;
+}
+
+.IE #sql-text {
+  height: 285px !important;
+}
+
+#pooling-description {
+  box-sizing: border-box;
+}
+
+.IE #pooling-description {
+  height: 40px !important;
+}
+
+#options-parameter-tree .gwt-ScrollTable {
+  height: 220px !important;
+}
+
+#options-parameter-tree .gwt-ScrollTable .dataWrapper {
+  height: 100% !important;
+}
+
+@-moz-document url-prefix() {
+  #puc_options-parameter-tree .gwt-ScrollTable {
+    height: 330px !important;
+    overflow: auto !important;
+  }
+  #puc_options-parameter-tree .gwt-ScrollTable .dataWrapper {
+    height: 100% !important;
+  }
+}
+
+#deck-options-list {
+  max-width: 100px;
+}
