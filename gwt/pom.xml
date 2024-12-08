@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-data-access-parent</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-data-access-parent</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
-  <groupId>pentaho</groupId>
-  <artifactId>pentaho-data-access-gwt</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <groupId>org.tahopen</groupId>
+  <artifactId>tahopen-data-access-gwt</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
   <properties>
     <gwt.user.agent>safari,ie9,ie8,gecko1_8</gwt.user.agent>
     <gwt.module>org.pentaho.platform.dataaccess.datasource.DatasourceEditor</gwt.module>
@@ -19,8 +19,8 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-bi-platform-data-access</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-bi-platform-data-access</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
@@ -65,29 +65,29 @@
       <artifactId>GWT-FX</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-xul-core</artifactId>
       <version>${commons-xul.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-xul-gwt-impl</artifactId>
       <version>${commons-xul.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-gwt-widgets</artifactId>
       <version>${commons-gwt.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-modeler-gwt</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-modeler-gwt</artifactId>
       <version>${pentaho-modeler.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
@@ -99,22 +99,22 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-database-gwt</artifactId>
       <version>${commons-database.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-database-model</artifactId>
       <version>${commons-database.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-modeler</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-modeler</artifactId>
       <version>${pentaho-modeler.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
@@ -126,14 +126,14 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-metadata</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-metadata</artifactId>
       <version>${pentaho-metadata.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libbase</artifactId>
       <version>${pentaho-reporting.version}</version>
       <classifier>sources</classifier>

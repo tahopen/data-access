@@ -85,7 +85,7 @@
     <flexjson.version>2.1</flexjson.version>
     <ognl.version>2.6.9</ognl.version>
     <encoder.version>1.2</encoder.version>
-    <pentaho-cwm.version>1.5.4</pentaho-cwm.version>
+    <pentaho-cwm.version>0.1.0.0-SNAPSHOT</pentaho-cwm.version>
     <maven-failsafe-plugin.reuseForks>false</maven-failsafe-plugin.reuseForks>
     <eigenbase-properties.version>1.1.2</eigenbase-properties.version>
     <aopalliance.version>1.0</aopalliance.version>
