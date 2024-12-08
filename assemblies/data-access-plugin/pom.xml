@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-data-access-assemblies</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-data-access-assemblies</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
-  <groupId>pentaho</groupId>
+  <groupId>org.tahopen</groupId>
   <artifactId>data-access-plugin</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <dependencies>
     <dependency>
@@ -18,23 +18,24 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-database-gwt</artifactId>
+      <version>0.1.0.0-SNAPSHOT</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-modeler</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-modeler</artifactId>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-modeler-gwt</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-modeler-gwt</artifactId>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-extensions</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-extensions</artifactId>
       <scope>provided</scope>
     </dependency>
     <!-- region HV Web Security -->
